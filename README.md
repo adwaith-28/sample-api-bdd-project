@@ -9,4 +9,4 @@ API Swagger Page for reference: https://todo-api-yourname.azurewebsites.net/swag
 => Deleting a todo item. (DELETE/id) <br />
 
 Attaching screenshot of all the 5 passed test cases: <br />
-\![image](https://github.com/user-attachments/assets/25044740-f344-49e4-8888-26b8cad635e1)
+![image](https://github.com/user-attachments/assets/25044740-f344-49e4-8888-26b8cad635e1)
