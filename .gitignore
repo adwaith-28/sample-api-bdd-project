@@ -5,6 +5,7 @@ bin/
 obj/
 TestResults/
 .vscode/
+.vs/
 
 # User-specific files
 *.user
