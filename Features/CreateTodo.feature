@@ -1,9 +1,10 @@
-﻿Feature: CreateTodo
+﻿Feature: Create a ToDo Item
 
-A short summary of the feature
+Verify that the API allows creating a new todo item
 
 @tag1
-Scenario: [scenario name]
-	Given [context]
-	When [action]
-	Then [outcome]
+Scenario: Add a new todo item
+	Given the ToDo API is available
+	When I send a POST request to create a todo item with title "Create Test"
+	Then the response status should be 201
+	And the response should contain a todo item with title "Create Test"
